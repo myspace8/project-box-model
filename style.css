@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lavender;
+    font-family: 'Inter', sans-serif;;
+}
+
+main {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 44px;
+    margin: 20px 0;
+    padding-top: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    /* border: 2px solid grey; */
+    margin: 16px;
+    padding: 12px;
+
+}
+
+.color-circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.color-circles span {
+    text-align: center;
+    width: 13px;
+    height: 13px;
+    background-color: crimson;
+    border-radius: 50%;
+}
+
+.content {
+    text-align: center;
+}
+
+h3 {
+    margin: 12px 0;
+}
+
+.new {
+    color: #bf4800;
+    font-size: 14px;
+}
+
+button {
+    margin: 12px 0;
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    padding: 4px 11px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+
+
+/* Styling the svg */
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #06c;
+    text-decoration: none;
+}
